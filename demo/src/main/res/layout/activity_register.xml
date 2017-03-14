@@ -1,0 +1,146 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#293a44"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout"
+        android:background="@drawable/new_header">
+        <Button
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:background="@drawable/back"
+            android:id="@+id/back"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Subcribe"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginTop="15dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="#FFFFFF"/>
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:id="@+id/add"
+        android:orientation="horizontal"></LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+
+
+            <CheckBox
+                android:id="@+id/pak"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:text="PAKISTAN" />
+
+            <CheckBox
+                android:id="@+id/aus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+
+                android:text="AUSTRALIA" />
+            <CheckBox
+                android:id="@+id/ind"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INDIA"
+                android:textColor="#ffffff"
+                />
+
+            <CheckBox
+                android:id="@+id/sl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+
+                android:text="Sri Lanka" />
+
+
+
+
+            <CheckBox
+                android:id="@+id/eng"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+
+                android:text="England"
+                />
+
+            <CheckBox
+                android:id="@+id/sa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+
+                android:text="South Africa" />
+
+            <CheckBox
+                android:id="@+id/uae"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+
+                android:text="Bangladesh" />
+            <CheckBox
+                android:id="@+id/ken"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+
+                android:text="Kenya" />
+            <CheckBox
+                android:id="@+id/nz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+
+                android:text="New Zealand" />
+            <CheckBox
+                android:id="@+id/zim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+
+                android:text="Zimbabve" />
+
+
+
+            <Button android:id="@+id/btnRegister"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Subcribe / UnSubcribe"
+                android:layout_gravity="bottom"
+                android:layout_margin="10dip"/>
+
+        </LinearLayout>
+
+
+
+
+
+
+    </ScrollView>
+
+
+</LinearLayout>

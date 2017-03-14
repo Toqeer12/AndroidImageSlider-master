@@ -1,0 +1,37 @@
+<resources>
+
+
+      <style name="AppBaseTheme" parent="android:Theme.Light.NoTitleBar"></style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:windowTitleBackgroundStyle">@style/WindowTitleBar</item>
+    </style>
+
+    <style name="WindowTitleBar">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textColor">@android:color/transparent</item>
+        <item name="android:paddingLeft">5dp</item>
+    </style>
+
+    <style name="MenuDrawer" />
+
+    <style name="MenuDrawer.Widget" />
+
+    <style name="Widget" />
+
+    <!-- Base theme for the menu drawer. -->
+    <style name="Widget.MenuDrawer">
+        <item name="mdMenuBackground">@android:color/transparent</item>
+        <item name="mdContentBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="MenuDrawer.Widget.Title">
+        <item name="android:textAppearance">?android:attr/textAppearance</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:paddingRight">32dp</item>
+        <item name="android:paddingTop">18dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:drawablePadding">16dp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+</resources>

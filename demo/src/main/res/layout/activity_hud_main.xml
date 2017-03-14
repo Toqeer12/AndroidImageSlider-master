@@ -1,0 +1,317 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainHUDWrapper"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#000000"
+    android:layout_marginTop="-30dp"
+    android:orientation="vertical"
+    android:gravity="center_horizontal|center_vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/add"
+        android:gravity="top"
+        android:orientation="horizontal"></LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/screen"
+        android:textColor="#ffffff"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/bre"
+        android:textColor="#ffffff"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/manof"
+        android:textColor="#ffffff"
+        />
+    <TextView android:text="Tap to go back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        />
+    <LinearLayout
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+
+        android:background="#11ffffff"
+        android:layout_marginTop="12dp"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:textStyle="bold"
+            android:id="@+id/battingTeamNameHUD"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            />
+        <TextView
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:id="@+id/battingTeamScoreHUD"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            />
+        <TextView
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:textStyle="bold"
+            android:id="@+id/battingTeamOversHUD"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            />
+        <TextView
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:textStyle="bold"
+            android:id="@+id/battingTeamRRHUD"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="#11ffffff"
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/batsmenOneNameHUD"
+
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:textColor="#ffffff"
+                />
+
+            <TextView
+                android:id="@+id/batsmenOneRunsHUD"
+
+                android:layout_weight="1"
+                android:gravity="right"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:textColor="#ffffff"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/batsmenTwoNameHUD"
+
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:textColor="#ffffff"
+                />
+
+            <TextView
+                android:id="@+id/batsmenTwoRunsHUD"
+
+                android:layout_weight="1"
+                android:gravity="right"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:textColor="#ffffff"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="#11ffffff"
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:gravity="right"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:gravity="right"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="4"
+            >
+
+            <TextView
+                android:textColor="#ffffff"
+                android:textSize="10sp"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:gravity="center_horizontal"
+                android:layout_marginRight="5dp"
+                android:textColor="#ffffff"
+                android:text="O"
+                android:textSize="12sp"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:gravity="center_horizontal"
+                android:textSize="12sp"
+                android:layout_marginRight="5dp"
+                android:textColor="#ffffff"
+                android:text="R"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:gravity="center_horizontal"
+                android:textSize="12sp"
+                android:layout_marginRight="5dp"
+                android:textColor="#ffffff"
+                android:text="W"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:gravity="center_horizontal"
+                android:textSize="12sp"
+
+                android:textColor="#ffffff"
+                android:text="ECN"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/bowlerOneNameHUD"
+                android:textColor="#ffffff"
+
+                android:textSize="12sp"
+                android:layout_width="180dp"
+
+                android:layout_height="wrap_content"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="right"
+                android:weightSum="6"
+
+
+                >
+                <TextView
+                    android:gravity="center_horizontal"
+                    android:id="@+id/bowler1OverHudTv"
+                    android:textSize="12sp"
+                    android:textColor="#ffffff"
+
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1.5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    />
+                <TextView
+                    android:gravity="center_horizontal"
+                    android:id="@+id/bowler1RunsHudTv"
+                    android:textSize="12sp"
+                    android:layout_marginRight="5dp"
+                    android:textColor="#ffffff"
+
+                    android:layout_weight="1.5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    />
+                <TextView
+
+                    android:gravity="center_horizontal"
+                    android:id="@+id/bowler1WicketsHudTv"
+                    android:textSize="12sp"
+                    android:layout_marginRight="5dp"
+                    android:textColor="#ffffff"
+
+                    android:layout_weight="1.5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    />
+                <TextView
+                    android:gravity="center_horizontal"
+                    android:id="@+id/bowler1ECNHudTv"
+                    android:textSize="12sp"
+
+                    android:textColor="#ffffff"
+
+                    android:layout_weight="1.5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

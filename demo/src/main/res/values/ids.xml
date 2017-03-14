@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="done">false</item>
+    <item type="id" name="date_picker_header">false</item>
+    <item type="id" name="day_picker_selected_date_layout">false</item>
+    <item type="id" name="date_picker_month_and_day">false</item>
+    <item type="id" name="date_picker_month">false</item>
+    <item type="id" name="date_picker_day">false</item>
+    <item type="id" name="date_picker_year">false</item>
+    <item type="id" name="animator">false</item>
+    <item type="id" name="month_text_view">false</item>
+    
+    <!-- ID used when defining the content layout in XML. -->
+    <item name="mdContent" type="id" />
+
+    <!-- ID used when defining the menu layout in XML. -->
+    <item name="mdMenu" type="id" />
+
+    <!-- The ID of the content container. -->
+    <item name="md__content" type="id" />
+
+    <!-- The ID of the menu container. -->
+    <item name="md__menu" type="id" />
+
+    <!-- The ID of the drawer. -->
+    <item name="md__drawer" type="id" />
+
+    <!-- Used with View#setTag(int) to specify a position for the active view. -->
+    <item name="mdActiveViewPosition" type="id" />
+
+    <item name="md__translationX" type="id" />
+
+    <item name="md__translationY" type="id" />
+</resources>

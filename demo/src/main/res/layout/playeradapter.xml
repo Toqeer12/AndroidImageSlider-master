@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:id="@+id/parent_layout"
+    >
+
+    <LinearLayout
+        android:layout_gravity="center_vertical"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+
+
+
+        <TextView
+            android:id="@+id/rnk"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_weight="0.9"
+            android:paddingTop="25dp"
+            android:paddingLeft="5dp"
+            android:textColor="#FFFFFF"/>
+        <ImageView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_weight="0.3"
+            android:paddingTop="15dp"
+            android:id="@+id/profile"
+            />
+        <TextView
+            android:id="@+id/nme"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.0"
+            android:textSize="15sp"
+            android:text="Name"
+            android:paddingTop="15dp"
+            android:paddingBottom="10dp"
+            android:textColor="#FFFFFF"/>
+
+        <ImageView
+            android:id="@+id/cntry"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/paki"
+            android:layout_weight="1"
+            android:paddingTop="25dp"
+             />
+
+        <TextView
+            android:id="@+id/rat"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:gravity="right"
+            android:paddingTop="25dp"
+            android:paddingRight="5dp"
+            android:layout_weight="1.0"
+            android:textColor="#FFFFFF"/>
+
+    </LinearLayout>
+
+</LinearLayout>

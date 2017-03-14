@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/customLayoutMain"
+    android:background="#293a44"
+
+    >
+
+    <LinearLayout
+
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="2">
+
+            <ImageView
+                android:layout_marginLeft="2dp"
+                android:textColor="#ffffff"
+                android:id="@+id/fl"
+                android:layout_width="wrap_content"
+                android:src="@drawable/pakistan"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Batsmen"
+                />
+            <TextView
+
+                android:textColor="#ffffff"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pakistan"
+                android:id="@+id/country"
+                android:layout_gravity="center_horizontal"
+                />
+        </LinearLayout>
+
+        <TextView
+
+            android:textColor="#ffffff"
+            android:id="@+id/p"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="P"
+            />
+
+        <TextView
+            android:textColor="#ffffff"
+            android:id="@+id/w"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="W"
+            />
+        <TextView
+            android:textColor="#ffffff"
+            android:id="@+id/l"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="L"
+            />
+        <TextView
+            android:textColor="#ffffff"
+            android:id="@+id/t"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="T"
+            />
+        <TextView
+            android:textColor="#ffffff"
+            android:id="@+id/nr"
+            android:gravity="center"
+            android:layout_weight="1.5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="NR"
+            />
+        <TextView
+            android:textColor="#ffffff"
+            android:id="@+id/pts"
+            android:gravity="center"
+            android:layout_weight="1.5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Pts"
+            />
+        <TextView
+            android:textColor="#ffffff"
+            android:id="@+id/nrr"
+            android:gravity="center"
+            android:layout_weight="1.5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="NRR"
+            />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

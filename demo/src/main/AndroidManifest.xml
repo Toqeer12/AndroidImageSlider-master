@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.koherent.pdlapps.cricketworldcup2015live" >
+
+    <uses-sdk android:minSdkVersion="9"/>
+
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <!-- This app has permission to register and receive dataf message. -->
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <permission
+        android:name="com.koherent.pdlapps.cricketworldcup2015live.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+    <!-- Permission to get DeviceId -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <!-- GCM connects to Google Services. -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <!-- GCM requires a Google account. -->
+    <uses-permission android:name="com.koherent.pdlapps.cricketworldcup2015live.permission.C2D_MESSAGE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>    <!-- Keeps the processor from sleeping when a message is received. -->
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme" >
+        <meta-data android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data android:name="PW_APPID" android:value="455B2-3D822" />
+        <meta-data android:name="PW_PROJECT_ID" android:value="A1010253254677" />
+        <meta-data android:name="com.revmob.app.id" android:value="55f2c11dcb19f0d50c2f3462"/>
+
+        <activity
+
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+
+            android:screenOrientation="portrait">
+
+        </activity>
+
+        <activity android:name=".DemActivity"
+            android:screenOrientation="portrait"></activity>
+
+
+        <activity android:name=".Fixture"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".News"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".Ranking"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".PictureGallery"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".TeamDetail"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".Venues"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".VenueDetail"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".PlayerRankDetail"
+        android:screenOrientation="portrait"></activity>
+        <activity android:name=".HUDActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".History"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".Player_Stats"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".MoreApps"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".LiveScoree"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".FullScoreCardActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".SearchByCountry"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".SearchByName"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".PlayerStatDetail"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".LiveList"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".TestActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".Recent_Result"
+            android:screenOrientation="portrait"
+            >
+
+        </activity>
+        <activity android:name=".RegisterActivity"
+            android:screenOrientation="portrait"
+            >
+
+        </activity>
+        <activity android:name=".WorldCup"
+            android:screenOrientation="portrait"
+            >
+
+        </activity>
+        <activity android:name=".OverByOver"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".HistoryDetail"
+            android:screenOrientation="portrait"
+            >
+
+        </activity>
+        <activity android:name=".demo"
+            android:screenOrientation="portrait"
+            >
+
+        </activity>
+        <activity android:name=".FullCardTesting"
+            android:screenOrientation="portrait"
+            >
+
+        </activity>
+        <activity android:name=".FallOFWickets"
+            android:screenOrientation="portrait"
+            >
+
+        </activity>
+        <activity android:name=".Splash"
+            android:screenOrientation="portrait"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <receiver
+            android:name="com.google.android.gms.analytics.AnalyticsReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="com.google.android.gms.analytics.ANALYTICS_DISPATCH" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.analytics.AnalyticsService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <!--
+             Optionally, register CampaignTrackingReceiver and CampaignTrackingService to enable
+             installation campaign reporting
+        -->
+        <receiver
+            android:name="com.google.android.gms.analytics.CampaignTrackingReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.google.android.gms.analytics.CampaignTrackingService" />
+        <activity android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />
+
+
+        <receiver
+            android:name="com.google.android.gcm.GCMBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+
+                <!-- Receives the actual messages. -->
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <!-- Receives the registration id. -->
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="com.koherent.pdlapps.cricketworldcup2015live" />
+            </intent-filter>
+        </receiver>
+
+
+
+        <service android:name=".GCMIntentService" />
+
+    </application>
+
+</manifest>

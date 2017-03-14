@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/customLayoutMain"
+    android:background="#293a44"
+
+    >
+
+    <LinearLayout
+
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginLeft="2dp"
+            android:textColor="#ffffff"
+            android:id="@+id/batsmenName"
+            android:layout_weight="4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Batsmen"
+            />
+
+        <TextView
+
+            android:textColor="#ffffff"
+            android:id="@+id/batsmenRuns"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="R"
+            />
+
+        <TextView
+            android:textColor="#ffffff"
+            android:id="@+id/batsmenBalls"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="B"
+            />
+        <TextView
+            android:textColor="#ffffff"
+            android:id="@+id/batsmen4S"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="4s"
+            />
+        <TextView
+            android:textColor="#ffffff"
+            android:id="@+id/batsmen6S"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="6s"
+            />
+        <TextView
+            android:textColor="#ffffff"
+            android:id="@+id/batsmenSR"
+            android:gravity="center"
+            android:layout_weight="1.5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="SR"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginLeft="2dp"
+        android:id="@+id/custom_batsmen_list_LastRowTV"
+        android:textColor="#ffffff"
+        android:textStyle="bold|italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        />
+
+
+</LinearLayout>

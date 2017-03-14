@@ -1,0 +1,113 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#80282828"
+    >
+
+
+        <TextView
+            android:id="@+id/year"
+            android:layout_height="wrap_content"
+            android:text="year"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="5dp"
+            />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/country1"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/tbd"/>
+        <TextView
+            android:id="@+id/Winner"
+            android:layout_height="wrap_content"
+            android:text="Row 2 column 1"
+            android:layout_width="wrap_content"
+            android:textColor="#ffffff"
+           />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/wins"
+            android:layout_height="wrap_content"
+            android:text="(28/9)"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:textColor="#ffffff"
+            />
+        <TextView
+            android:id="@+id/winso"
+            android:layout_height="wrap_content"
+            android:text="(28/9)"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:textColor="#ffffff"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+
+        android:layout_height="wrap_content">
+
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/country2"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/tbd"/>
+        <TextView
+            android:id="@+id/runner"
+            android:layout_height="wrap_content"
+            android:text="Row 2 column 1"
+            android:layout_width="wrap_content"
+            android:textColor="#ffffff"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/runs"
+            android:layout_height="wrap_content"
+            android:text="(28/9)"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:textColor="#ffffff"
+            />
+        <TextView
+            android:id="@+id/runso"
+            android:layout_height="wrap_content"
+            android:text="(28/9)"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:textColor="#ffffff"
+            />
+    </LinearLayout>
+
+</LinearLayout>

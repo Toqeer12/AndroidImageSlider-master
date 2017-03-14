@@ -1,0 +1,230 @@
+
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lay"
+        android:background="#293a44"
+
+        >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/abc"
+    >
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="HOME"
+        android:paddingBottom="5dp"
+        android:layout_marginTop="2dp"
+        android:drawableLeft="@drawable/home_btn_selector"
+        android:gravity="left|center_vertical"
+        android:drawablePadding="5dp"
+        android:textColor="@color/selectorcolor"
+        android:drawableRight="@drawable/arrow_selector"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/home_menue_select"
+        android:id="@+id/home"/>
+
+    <Button
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:text="World Cup"
+        android:layout_marginTop="1dp"
+        android:layout_below="@+id/home"
+        android:textColor="@color/selectorcolor"
+
+        android:drawableLeft="@drawable/live_selector"
+        android:gravity="left|center_vertical"
+        android:drawablePadding="5dp"
+        android:background="@drawable/menu2select"
+        android:drawableRight="@drawable/arrow_selector"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/wc"/>
+    <Button
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:text="LIVE SCORES"
+        android:layout_marginTop="1dp"
+        android:layout_below="@+id/wc"
+        android:textColor="@color/selectorcolor"
+
+        android:drawableLeft="@drawable/live_selector"
+        android:gravity="left|center_vertical"
+        android:drawablePadding="5dp"
+        android:background="@drawable/menu2select"
+        android:drawableRight="@drawable/arrow_selector"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/lscore"/>
+    <Button
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:text="RECENT MATCHES"
+        android:layout_marginTop="1dp"
+        android:layout_below="@+id/lscore"
+        android:textColor="@color/selectorcolor"
+
+        android:drawableLeft="@drawable/livescore_selector"
+        android:gravity="left|center_vertical"
+        android:drawablePadding="5dp"
+        android:background="@drawable/menu2select"
+        android:drawableRight="@drawable/arrow_selector"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/label"/>
+    <Button
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:textColor="@color/selectorcolor"
+
+        android:drawableLeft="@drawable/fixture_selector"
+        android:gravity="left|center_vertical"
+        android:background="@drawable/menu2select"
+        android:layout_marginTop="1dp"
+        android:drawablePadding="5dp"
+        android:drawableRight="@drawable/arrow_selector"
+        android:layout_centerHorizontal="true"
+        android:text="FIXTURES"
+        android:layout_below="@+id/label"
+        android:id="@+id/fixture"/>
+    <Button
+        android:layout_height="match_parent"
+        android:textColor="@color/selectorcolor"
+
+        android:layout_width="match_parent"
+        android:drawableLeft="@drawable/new_selector"
+        android:background="@drawable/menu2select"
+        android:drawableRight="@drawable/arrow_selector"
+        android:text="NEWS"
+        android:drawablePadding="5dp"
+        android:gravity="left|center_vertical"
+
+        android:layout_marginTop="1dp"
+        android:layout_below="@+id/fixture"
+        android:id="@+id/news"/>
+
+    <Button
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:drawableLeft="@drawable/player_profile_select"
+        android:gravity="left|center_vertical"
+        android:drawablePadding="5dp"
+        android:textColor="@color/selectorcolor"
+
+        android:background="@drawable/menu2select"
+        android:drawableRight="@drawable/arrow_selector"
+
+        android:layout_centerHorizontal="true"
+        android:text="HISTORY"
+        android:layout_marginTop="1dp"
+        android:layout_below="@+id/news"
+        android:id="@+id/pprofile"/>
+    <Button
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:drawableLeft="@drawable/ranking_selector"
+        android:gravity="left|center_vertical"
+        android:drawablePadding="5dp"
+        android:textColor="@color/selectorcolor"
+
+        android:background="@drawable/menu2select"
+        android:drawableRight="@drawable/arrow_selector"
+
+        android:layout_centerHorizontal="true"
+        android:text="RANKINGS"
+        android:layout_marginTop="1dp"
+        android:layout_below="@+id/pprofile"
+        android:id="@+id/rank"/>
+    <Button
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:drawableLeft="@drawable/record_select"
+        android:gravity="left|center_vertical"
+        android:textColor="@color/selectorcolor"
+        android:background="@drawable/menu2select"
+        android:drawableRight="@drawable/arrow_selector"
+        android:drawablePadding="5dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/reco"
+        android:layout_below="@+id/rank"
+        android:layout_marginTop="1dp"
+        android:id="@+id/record"/>
+
+    <Button
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:drawableLeft="@drawable/venue_selector"
+        android:background="@drawable/menu2select"
+        android:drawableRight="@drawable/arrow_selector"
+        android:layout_centerHorizontal="true"
+        android:text="VENUES"
+        android:textColor="@color/selectorcolor"
+
+        android:gravity="left|center_vertical"
+        android:drawablePadding="5dp"
+
+        android:layout_marginTop="1dp"
+        android:layout_below="@+id/record"
+        android:id="@+id/venue"/>
+    <Button
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:drawableLeft="@drawable/gallery_selector"
+        android:gravity="left|center_vertical"
+        android:drawablePadding="5dp"
+        android:textColor="@color/selectorcolor"
+
+        android:background="@drawable/menu2select"
+        android:drawableRight="@drawable/arrow_selector"
+
+        android:layout_centerHorizontal="true"
+        android:text="PICTURE GALLERY"
+        android:layout_marginTop="1dp"
+
+        android:layout_below="@+id/venue"
+        android:id="@+id/gallery"/>
+
+    <Button
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:drawablePadding="5dp"
+        android:drawableLeft="@drawable/more_app_selector"
+        android:background="@drawable/menu2select"
+        android:drawableRight="@drawable/arrow_selector"
+        android:gravity="left|center_vertical"
+        android:textColor="@color/selectorcolor"
+
+        android:layout_centerHorizontal="true"
+        android:text="MORE APPS"
+        android:layout_marginTop="1dp"
+        android:layout_below="@+id/gallery"
+        android:id="@+id/mapps"/>
+    <Button
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:drawableLeft="@drawable/menu_share"
+        android:textColor="@color/selectorcolor"
+
+        android:background="@drawable/menu2select"
+        android:drawableRight="@drawable/arrow_selector"
+        android:gravity="left|center_vertical"
+        android:drawablePadding="5dp"
+
+        android:layout_centerHorizontal="true"
+        android:text="SHARE"
+        android:layout_marginTop="1dp"
+        android:layout_below="@+id/mapps"
+        android:id="@+id/share"/>
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,750 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#282828"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#000000"
+            android:weightSum="1">
+
+
+            <TextView
+                android:text="Batting"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="#ffffff"
+                android:paddingTop="5dp"
+                android:layout_weight="0.4"
+                android:paddingLeft="5dp"
+
+                />
+            <TextView
+                android:text="TEST"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="#ffffff"
+                android:layout_weight="0.2"
+                android:paddingTop="5dp"
+
+                />
+            <TextView
+                android:text="ODIs"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="#ffffff"
+                android:layout_weight="0.2"
+                android:paddingTop="5dp"
+
+                />
+            <TextView
+                android:text="T20"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="#ffffff"
+                android:layout_weight="0.2"
+                android:paddingTop="5dp"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="1dp"
+            android:weightSum="5"
+            android:background="@drawable/statimage">
+
+            <TextView
+                android:text="Matches"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="#ffffff"
+                android:layout_weight="1.8"
+                android:paddingLeft="5dp"
+                android:paddingTop="20dp"
+
+                />
+
+            <TextView
+                android:text="T20"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="#FFFFFF"
+                android:layout_weight="1.2"
+                android:paddingLeft="3dp"
+                android:paddingTop="20dp"
+                android:id="@+id/test_bowl_match"
+
+                />
+
+            <TextView
+                android:text="T20"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="#ffffff"
+                android:layout_weight="1.0"
+                android:paddingTop="20dp"
+            android:id="@+id/Odi_bowl_match"
+                />
+
+            <TextView
+                android:text="T20"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="#ffffff"
+                android:layout_weight="0.2"
+                android:paddingTop="20dp"
+                android:id="@+id/t20_bowl_match"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="5"
+            android:background="@drawable/statimage"
+            android:layout_marginTop="1dp">
+
+            <TextView
+                android:text="Innings"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="#ffffff"
+                android:layout_weight="1.9"
+                android:paddingLeft="5dp"
+                android:paddingTop="20dp"
+
+                />
+
+            <TextView
+                android:text="T20"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="#FFFFFF"
+                android:layout_weight="1.2"
+                android:paddingLeft="3dp"
+                android:paddingTop="20dp"
+                android:id="@+id/test_bowl_innings"
+                />
+
+            <TextView
+                android:text="T20"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="#ffffff"
+                android:layout_weight="1.0"
+                android:paddingTop="20dp"
+                android:id="@+id/Odi_bowl_innings"
+                />
+
+            <TextView
+                android:text="T20"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="#ffffff"
+                android:layout_weight="0.2"
+                android:paddingTop="20dp"
+                android:id="@+id/t20_bowl_innings"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="1dp"
+            android:weightSum="5"
+            android:background="@drawable/statimage">
+
+            <TextView
+                android:text="Balls"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="#ffffff"
+                android:layout_weight="2.1"
+                android:paddingLeft="5dp"
+                android:paddingTop="20dp"
+
+                />
+
+            <TextView
+                android:text="T20"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="#FFFFFF"
+                android:layout_weight="1.1"
+                android:paddingLeft="3dp"
+                android:paddingTop="20dp"
+                android:id="@+id/test_bowl_balls"
+                />
+
+            <TextView
+                android:text="T20"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="#ffffff"
+                android:layout_weight="1.0"
+                android:paddingTop="20dp"
+                android:id="@+id/odi_bowl_balls"
+                />
+
+            <TextView
+                android:text="T20"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="#ffffff"
+                android:layout_weight="0.2"
+                android:paddingTop="20dp"
+                android:id="@+id/t20_bowl_balls"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="5"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/statimage">
+
+            <TextView
+                android:text="Runs"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="#ffffff"
+                android:layout_weight="2.1"
+                android:paddingLeft="5dp"
+                android:paddingTop="20dp"
+
+                />
+
+            <TextView
+                android:text="T20"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="#FFFFFF"
+                android:layout_weight="1.1"
+                android:paddingLeft="3dp"
+                android:paddingTop="20dp"
+                android:id="@+id/test_bowl_runs"
+                />
+
+            <TextView
+                android:text="T20"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="#ffffff"
+                android:layout_weight="1.0"
+                android:paddingTop="20dp"
+                android:id="@+id/odi_bowl_runs"
+                />
+
+            <TextView
+                android:text="T20"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="#ffffff"
+                android:layout_weight="0.2"
+                android:paddingTop="20dp"
+                    android:id="@+id/t20_bowl_runs"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="5"
+            android:background="@drawable/statimage"
+            android:layout_marginTop="1dp">
+
+            <TextView
+                android:text="Wkts"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="#ffffff"
+                android:layout_weight="2.1"
+                android:paddingLeft="5dp"
+                android:paddingTop="20dp"
+
+                />
+
+            <TextView
+                android:text="T20"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="#FFFFFF"
+                android:layout_weight="1.1"
+                android:paddingLeft="3dp"
+                android:paddingTop="20dp"
+                android:id="@+id/test_bowl_wickets"
+                />
+
+            <TextView
+                android:text="T20"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="#ffffff"
+                android:layout_weight="1.1"
+                android:paddingTop="20dp"
+                android:id="@+id/odi_bowl_wickets"
+                />
+
+            <TextView
+                android:text="T20"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="#ffffff"
+                android:layout_weight="0.2"
+                android:paddingTop="20dp"
+                android:id="@+id/t20_bowl_wickets"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="5"
+            android:orientation="horizontal"
+            android:background="@drawable/statimage"
+            android:layout_marginTop="1dp">
+
+            <TextView
+                android:text="BBI"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="#ffffff"
+                android:layout_weight="2.2"
+                android:paddingLeft="5dp"
+                android:paddingTop="20dp"
+
+
+                />
+
+            <TextView
+                android:text="T20"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="#FFFFFF"
+                android:layout_weight="1.1"
+                android:paddingLeft="3dp"
+                android:paddingTop="20dp"
+                    android:id="@+id/test_bowl_bbi"
+                />
+
+            <TextView
+                android:text="T20"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="#ffffff"
+                android:layout_weight="1"
+                android:paddingTop="20dp"
+                android:id="@+id/odi_bowl_bbi"
+                />
+
+            <TextView
+                android:text="T20"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="#ffffff"
+                android:layout_weight="0.2"
+                android:paddingTop="20dp"
+                android:id="@+id/t20_bowl_bbi"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="5"
+            android:background="@drawable/statimage"
+            android:layout_marginTop="1dp">
+
+            <TextView
+                android:text="BBM"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="#ffffff"
+                android:layout_weight="2.2"
+                android:paddingLeft="5dp"
+                android:paddingTop="20dp"
+
+
+                />
+
+            <TextView
+                android:text="T20"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="#FFFFFF"
+                android:layout_weight="1.1"
+                android:paddingLeft="3dp"
+                android:paddingTop="20dp"
+                android:id="@+id/test_bowl_bbm"
+                />
+
+            <TextView
+                android:text="T20"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="#ffffff"
+                android:layout_weight="1"
+                android:paddingTop="20dp"
+                android:id="@+id/odi_bowl_bbm"
+                />
+
+            <TextView
+                android:text="T20"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="#ffffff"
+                android:layout_weight="0.2"
+                android:paddingTop="20dp"
+                android:id="@+id/t20_bowl_bbm"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="5"
+            android:background="@drawable/statimage"
+            android:layout_marginTop="1dp">
+
+            <TextView
+                android:text="Avg"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="#ffffff"
+                android:layout_weight="2.3"
+                android:paddingLeft="5dp"
+                android:paddingTop="20dp"
+
+
+                />
+
+            <TextView
+                android:text="T20"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="#FFFFFF"
+                android:layout_weight="1.0"
+                android:paddingLeft="3dp"
+                android:paddingTop="20dp"
+                    android:id="@+id/test_bowl_avg"
+                />
+
+            <TextView
+                android:text="T20"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="#ffffff"
+                android:layout_weight="1.0"
+                android:paddingTop="20dp"
+                android:id="@+id/odi_bowl_avg"
+                />
+
+            <TextView
+                android:text="T20"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="#ffffff"
+                android:layout_weight="0.2"
+                android:paddingTop="20dp"
+                android:id="@+id/t20_bowl_avg"
+
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="5"
+            android:background="@drawable/statimage"
+            android:layout_marginTop="1dp">
+
+            <TextView
+                android:text="Ecn"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="#ffffff"
+                android:layout_weight="2.3"
+                android:paddingLeft="5dp"
+                android:paddingTop="20dp"
+
+
+                />
+
+            <TextView
+                android:text="T20"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="#FFFFFF"
+                android:layout_weight="1.0"
+                android:paddingLeft="3dp"
+                android:paddingTop="20dp"
+                android:id="@+id/test_bowl_ecn"
+                />
+
+            <TextView
+                android:text="T20"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="#ffffff"
+                android:layout_weight="1.0"
+                android:paddingTop="20dp"
+                android:id="@+id/odi_bowl_ecn"
+                />
+
+            <TextView
+                android:text="T20"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="#ffffff"
+                android:layout_weight="0.2"
+                android:paddingTop="20dp"
+                android:id="@+id/t20_bowl_ecn"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="5"
+            android:background="@drawable/statimage"
+            android:layout_marginTop="1dp">
+
+            <TextView
+                android:text="Sr"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="#ffffff"
+                android:layout_weight="2.4"
+                android:paddingLeft="5dp"
+                android:paddingTop="20dp"
+
+
+                />
+
+            <TextView
+                android:text="T20"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="#FFFFFF"
+                android:layout_weight="1.0"
+                android:paddingLeft="3dp"
+                android:paddingTop="20dp"
+                android:id="@+id/test_bowl_sr"
+                />
+
+            <TextView
+                android:text="T20"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="#ffffff"
+                android:layout_weight="0.9"
+                android:paddingTop="20dp"
+                android:id="@+id/odi_bowl_sr"
+
+                />
+
+            <TextView
+                android:text="T20"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="#ffffff"
+                android:layout_weight="0.2"
+                android:paddingTop="20dp"
+                android:id="@+id/t20_bowl_sr"
+
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/statimage"
+            android:layout_marginTop="1dp">
+
+            <TextView
+                android:text="10w"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="#ffffff"
+                android:layout_weight="0.6"
+                android:paddingLeft="5dp"
+                android:paddingTop="20dp"
+
+
+                />
+
+            <TextView
+                android:text="T20"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="#FFFFFF"
+                android:layout_weight="0.3"
+                android:paddingLeft="3dp"
+                android:paddingTop="20dp"
+                android:id="@+id/test_bowl_100"
+
+                />
+
+            <TextView
+                android:text="T20"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="#ffffff"
+                android:layout_weight="0.2"
+                android:paddingTop="20dp"
+                android:id="@+id/odi_bowl_100"
+
+                />
+
+            <TextView
+                android:text="T20"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="#ffffff"
+                android:layout_weight="0.2"
+                android:paddingTop="20dp"
+                android:id="@+id/t20_bowl_100"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            android:background="@drawable/statimage"
+            android:layout_marginTop="1dp">
+
+            <TextView
+                android:text="5w"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="#ffffff"
+                android:layout_weight="0.5"
+                android:paddingLeft="5dp"
+                android:paddingTop="20dp"
+
+
+                />
+
+            <TextView
+                android:text="T20"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="#FFFFFF"
+                android:layout_weight="0.2"
+                android:paddingLeft="3dp"
+                android:paddingTop="20dp"
+                android:id="@+id/test_bowl_50"
+
+                />
+
+            <TextView
+                android:text="T20"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="#ffffff"
+                android:layout_weight="0.2"
+                android:paddingTop="20dp"
+                android:id="@+id/odi_bowl_50"
+
+                />
+
+            <TextView
+                android:text="T20"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="#ffffff"
+                android:layout_weight="0.2"
+                android:paddingTop="20dp"
+                android:id="@+id/t20_bowl_50"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="5"
+            android:background="@drawable/statimage"
+            android:layout_marginTop="1dp">
+
+            <TextView
+                android:text="4w"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="#ffffff"
+                android:layout_weight="2.3"
+                android:paddingLeft="5dp"
+                android:paddingTop="20dp"
+                />
+
+            <TextView
+                android:text="T20"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="#FFFFFF"
+                android:layout_weight="0.9"
+                android:paddingLeft="3dp"
+                android:paddingTop="20dp"
+                android:id="@+id/test_bowl_4"
+                />
+
+            <TextView
+                android:text="T20"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="#ffffff"
+                android:layout_weight="1.0"
+                android:paddingTop="20dp"
+                android:id="@+id/odi_bowl_4"
+                />
+
+            <TextView
+                android:text="T20"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="#ffffff"
+                android:layout_weight="0.2"
+                android:paddingTop="20dp"
+                android:id="@+id/t20_bowl_4"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,110 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="5dp"
+    android:padding="5dp" >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tap to View Scorecard"
+        android:background="@drawable/solid"
+        android:textColor="#FFFFFF"
+        android:id="@+id/taptext"
+        />
+
+    <TextView
+        android:id="@+id/match2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="March 1"
+        android:textSize="15sp"
+        android:layout_below="@+id/taptext"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/fix_lower_layer"
+
+        >
+    </TextView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/soliddetail"
+            android:layout_below="@id/match2"
+            android:layout_marginTop="1dp"
+            >
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/tbd"
+                android:layout_marginTop="5dp"
+                android:id="@+id/team1image"/>
+            <TextView
+                android:id="@+id/tea1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#FFFFFF"
+                android:text="date time"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:layout_below="@+id/team1image"
+                android:textSize="15sp" >
+            </TextView>
+            <TextView
+                android:id="@+id/typ"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#FFFFFF"
+                android:layout_centerHorizontal="true"
+                android:text="date time"
+                android:textStyle="bold"
+
+                android:layout_below="@+id/team1image"
+                android:textSize="15sp" >
+            </TextView>
+            <TextView
+                android:id="@+id/vs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:textColor="#FFFFFF"
+                android:text="VS"
+                android:textStyle="bold"
+
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/team1image"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/tbd"
+                android:id="@+id/team2image"
+                android:layout_marginRight="5dp"
+                android:textStyle="bold"
+
+                android:layout_marginTop="5dp"
+                android:layout_alignParentRight="true"/>
+            <TextView
+                android:id="@+id/tea2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#FFFFFF"
+                android:text="date time"
+                android:layout_marginRight="15dp"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/team2image"
+                android:textSize="15sp" >
+            </TextView>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+

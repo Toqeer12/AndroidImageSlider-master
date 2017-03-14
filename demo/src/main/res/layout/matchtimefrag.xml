@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#293a42"
+    android:id="@+id/layoutfragcounter"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/add"
+        android:layout_below="@+id/layout"
+        android:orientation="horizontal"></LinearLayout>
+    <TextView android:id="@+id/tossinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/add"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="17dp"
+        android:textSize="25sp" />
+    <TextView android:id="@+id/textViewTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tossinfo"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="17dp"
+        android:textSize="40sp" />
+
+
+    <TextView android:id="@+id/textViewsec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:paddingTop="60dp"
+        android:layout_below="@+id/layout"
+        android:layout_toRightOf="@+id/textViewTime"
+        android:textSize="25sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn"
+        android:layout_marginTop="20dp"
+        android:background="#282828"
+        android:text="Commentry"
+        android:textColor="#ffffff"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:clickable="false"
+        android:layout_below="@+id/textViewTime"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/teamA"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/btn"
+        android:textSize="15sp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/teamB"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/teamA"
+        android:textSize="15sp"
+        android:paddingLeft="10dp"
+        android:paddingTop="70dp"
+        />
+</RelativeLayout>
+

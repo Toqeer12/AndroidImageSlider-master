@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:id="@+id/parent_layout"
+    >
+    <TextView
+        android:id="@+id/ranum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.4"
+        android:textSize="15sp"
+        android:paddingTop="20dp"
+        android:paddingLeft="5dp"
+        android:textColor="#FFFFFF"/>
+    <RelativeLayout
+
+        android:layout_width="150dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:paddingTop="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/pakistan"
+            android:id="@+id/abc"/>
+        <TextView
+            android:id="@+id/teama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/abc"
+            android:text="@string/hello_world"
+            android:paddingLeft="50dp"
+
+            android:textSize="14sp"
+            android:textColor="#ffffff"/>
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_gravity="center_vertical"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+
+
+
+        <TextView
+            android:id="@+id/matchh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:textSize="15sp"
+            android:paddingLeft="10dp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"/>
+
+        <TextView
+            android:id="@+id/ranki"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:paddingLeft="5dp"
+            android:textSize="15sp"
+            android:textColor="#FFFFFF"/>
+
+        <TextView
+            android:id="@+id/pointt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:textSize="15sp"
+            android:textColor="#FFFFFF"/>
+
+        <TextView
+            android:id="@+id/point"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textStyle="bold"
+
+            android:textColor="#FFFFFF"/>
+
+    </LinearLayout>
+
+</LinearLayout>
